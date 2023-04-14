@@ -29,7 +29,7 @@ function ExpenseForm(props) {
 
     axios
       .post(
-        "http://api-expenses-prueba.azurewebsites.net/api/expenses/add",
+        "https://api-expenses-prueba.azurewebsites.net/api/expenses/add",
         expenseData
       )
       .then(function (response) {
